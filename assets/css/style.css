@@ -439,7 +439,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 /* payment */
 .service-block+.service-block{margin-top:100px}
 .service-block__head{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.service-logo{display:grid;place-items:center;height:280px;border-radius:var(--r-lg);background:var(--bg);font-family:var(--en);font-weight:700;font-size:40px;letter-spacing:.06em;color:var(--acc)}
+.service-logo{display:grid;place-items:center;min-height:280px;padding:48px 24px;overflow:hidden;border-radius:var(--r-lg);background:var(--bg);font-family:var(--en);font-weight:700;font-size:40px;letter-spacing:.06em;color:var(--acc)}
 .service-logo small{display:block;font-size:13px;letter-spacing:.2em;color:var(--sub);text-align:center;font-weight:600}
 .feature-icon{width:56px;height:56px;border-radius:50%;background:var(--acc-10);display:grid;place-items:center;color:var(--acc);font-family:var(--en);font-weight:700;font-size:13px;margin-bottom:16px}
 
@@ -682,7 +682,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   .join__body{padding:56px 20px;width:100%}
   .join__body p{font-size:15px}
   .service-block__head{grid-template-columns:1fr;gap:24px}
-  .service-logo{height:160px;font-size:28px}
+  .service-logo{min-height:160px;padding:28px 20px;font-size:28px}
   .site-footer{padding:48px 0 32px}
   .site-footer__top{flex-direction:column;gap:24px}
   .fnav{flex-direction:column;gap:0;border-top:1px solid var(--line)}
