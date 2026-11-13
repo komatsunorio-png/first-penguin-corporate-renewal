@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>株式会社ファーストペンギン｜First Penguin Inc.</title>
+<meta name="description" content="株式会社ファーストペンギンのコーポレートサイトです。ASP事業「インフォトップ」をはじめ、ペイメント事業、広告事業、コンテンツプロデュース事業を展開しています。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="top">
+<a class="sr-only" href="#main">本文へスキップ</a>
+<header class="site-header">
+  <a class="site-header__logo" href="index.html"><img src="assets/img/logo_h.png" alt="株式会社ファーストペンギン" width="162" height="30"></a>
+  <nav class="gnav" aria-label="グローバルナビゲーション">
+    <ul class="gnav__list"><li><a href="company/index.html">会社情報</a></li><li><a href="business/index.html">事業内容</a></li><li><a href="news/index.html">ニュース</a></li><li><a href="recruit/index.html">採用情報</a></li></ul>
+    <a class="gnav__cta" href="contact/index.html">お問い合わせ<span aria-hidden="true">→</span></a>
+  </nav>
+  <button class="menu-btn" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="sp-menu"><span></span><span></span><span></span></button>
+</header>
+<div class="sp-menu" id="sp-menu" aria-hidden="true">
+  <div class="sp-menu__head"><img src="assets/img/logo_h.png" alt="株式会社ファーストペンギン"><button class="sp-menu__close" type="button" aria-label="メニューを閉じる"></button></div>
+  <ul class="acc-list"><li class=""><button class="acc-list__head" type="button" data-acc aria-expanded="false"><span><small>COMPANY</small><b>会社情報</b></span><span class="acc-list__icon" aria-hidden="true">＋</span></button><div class="acc-list__body"><a href="company/index.html">会社情報トップ</a><a href="company/philosophy/index.html">企業理念</a><a href="company/overview/index.html">企業概要</a><a href="company/history/index.html">沿革</a><a href="company/privacy/index.html">プライバシーポリシー</a><a href="company/compliance/index.html">コンプライアンス</a><a href="company/security/index.html">情報セキュリティ</a><a href="company/antisocial/index.html">反社会的勢力に対する基本方針</a></div></li><li class=""><button class="acc-list__head" type="button" data-acc aria-expanded="false"><span><small>BUSINESS</small><b>事業内容</b></span><span class="acc-list__icon" aria-hidden="true">＋</span></button><div class="acc-list__body"><a href="business/index.html">事業内容トップ</a><a href="business/infotop/index.html">ASP事業</a><a href="business/payment/index.html">ペイメント事業</a><a href="business/ad/index.html">広告事業</a><a href="business/contentsproduce/index.html">コンテンツプロデュース事業</a></div></li><li class=""><button class="acc-list__head" type="button" data-acc aria-expanded="false"><span><small>NEWS</small><b>ニュース</b></span><span class="acc-list__icon" aria-hidden="true">＋</span></button><div class="acc-list__body"><a href="news/index.html">ニューストップ</a><a href="news/corporate/index.html">コーポレートニュース</a><a href="news/service/index.html">サービスニュース</a></div></li><li class=""><button class="acc-list__head" type="button" data-acc aria-expanded="false"><span><small>RECRUIT</small><b>採用情報</b></span><span class="acc-list__icon" aria-hidden="true">＋</span></button><div class="acc-list__body"><a href="recruit/index.html">採用情報トップ</a><a href="recruit/career/index.html">キャリア採用</a><a href="recruit/career/entry/index.html">エントリー</a></div></li></ul>
+  <a class="btn" href="contact/index.html">お問い合わせ</a>
+</div>
+<main id="main">
+
+<section class="hero" aria-label="メインビジュアル">
+  <div class="hero__media">
+    <img src="assets/img/hero.jpg" alt="オフィスでハイタッチする社員" width="1536" height="864">
+    <div class="hero__copy">
+      <p class="hero__label">FIRST PENGUIN</p>
+      <p class="hero__catch-en">Don't be afraid to fail.<br>Be afraid not to try.</p>
+      <h1 class="hero__catch-jp">失敗を恐れず、<br class="sp-only">誰よりも早く飛び込め！</h1>
+      <p class="hero__lead">最初に飛びこむ勇敢な1羽“ファーストペンギン”。<br>リスクを恐れず飛び込み、誰よりも早く。<br class="sp-only">そんなスピリットを持つ企業を目指しています。</p>
+    </div>
+  </div>
+</section>
+<section class="top-news">
+  <div class="top-news__card">
+    <div class="top-news__head"><h2 class="heading"><span class="heading__en">NEWS</span><span class="heading__jp">ニュース</span></h2>
+      <div class="tabs" role="tablist" aria-label="ニュースの種類" data-target="top-news-list">
+        <button type="button" role="tab" aria-selected="true" data-filter="all">すべて</button>
+        <button type="button" role="tab" aria-selected="false" data-filter="corporate">コーポレート</button>
+        <button type="button" role="tab" aria-selected="false" data-filter="service">サービス</button>
+      </div>
+    </div>
+    <ul class="news-list" id="top-news-list"><li data-cat="corporate service"><a href="news/article.html"><time datetime="2026-03-25">2026.03.25</time><span class="news-list__tags"><span class="tag">コーポレート</span><span class="tag">サービス</span></span><span class="news-list__title">情報教材大手ASP『インフォトップ』で後払い決済を導入</span><span class="arrow-circle" aria-hidden="true">→</span></a></li><li data-cat="corporate"><a href="news/article.html"><time datetime="2026-03-24">2026.03.24</time><span class="news-list__tags"><span class="tag">コーポレート</span></span><span class="news-list__title">代表取締役の交代を伴う役員人事のお知らせ</span><span class="arrow-circle" aria-hidden="true">→</span></a></li><li data-cat="corporate"><a href="news/article.html"><time datetime="2026-02-24">2026.02.24</time><span class="news-list__tags"><span class="tag">コーポレート</span></span><span class="news-list__title">事務所移転のお知らせ</span><span class="arrow-circle" aria-hidden="true">→</span></a></li><li data-cat="corporate"><a href="news/article.html"><time datetime="2025-03-26">2025.03.26</time><span class="news-list__tags"><span class="tag">コーポレート</span></span><span class="news-list__title">取締役の重任に関するお知らせ</span><span class="arrow-circle" aria-hidden="true">→</span></a></li><li data-cat="corporate service"><a href="news/article.html"><time datetime="2025-02-17">2025.02.17</time><span class="news-list__tags"><span class="tag">コーポレート</span><span class="tag">サービス</span></span><span class="news-list__title">デジタルコンテンツの作成／販売が可能なプラットフォーム「hikidashi（ヒキダシ）」をリリース</span><span class="arrow-circle" aria-hidden="true">→</span></a></li></ul>
+    <div class="btn-center"><a class="btn " href="news/index.html">ニュース一覧</a></div>
+  </div>
+</section>
+<section class="band" aria-labelledby="biz-h">
+  <div class="band__media"><img src="assets/img/meeting.jpg" alt="" loading="lazy">
+    <div class="band__body"><h2 class="heading heading--center heading--light" id="biz-h"><span class="heading__en">BUSINESS</span><span class="heading__jp">事業内容</span></h2>
+    <p>インターネットに関わるインフラを、ASP・決済・広告・コンテンツの4つの事業で提供しています。<br class="pc-only">「消費者の生活を豊かにする」をモットーに、2006年からサービスを提供し続けています。</p></div>
+  </div>
+</section>
+<div class="biz"><div class="wrap"><div class="biz__cards"><a class="biz-card" href="business/infotop/index.html"><span class="badge">BUSINESS 01</span><span class="circle-photo"><img src="assets/img/desk.jpg" alt="" loading="lazy"></span><h3>ASP事業</h3><span class="biz-card__sub">インフォトップ</span><p>デジタルコンテンツの販売と、アフィリエイトの仕組みを提供する日本最大級の情報教材ASP。</p><span class="biz-card__more">詳しく見る →</span></a><a class="biz-card" href="business/payment/index.html"><span class="badge">BUSINESS 02</span><span class="circle-photo"><img src="assets/img/payment.jpg" alt="" loading="lazy"></span><h3>ペイメント事業</h3><span class="biz-card__sub">AQUAGATES / SWIFT PASS</span><p>クレジットカードをはじめ多様な決済手段を、企業から個人まで幅広く提供。</p><span class="biz-card__more">詳しく見る →</span></a><a class="biz-card" href="business/ad/index.html"><span class="badge">BUSINESS 03</span><span class="circle-photo"><img src="assets/img/marketer.jpg" alt="" loading="lazy"></span><h3>広告事業</h3><span class="biz-card__sub">Web広告</span><p>ASP事業のノウハウを生かし、売上に直結するマーケティングを支援。</p><span class="biz-card__more">詳しく見る →</span></a><a class="biz-card" href="business/contentsproduce/index.html"><span class="badge">BUSINESS 04</span><span class="circle-photo"><img src="assets/img/studio.jpg" alt="" loading="lazy"></span><h3>コンテンツプロデュース事業</h3><span class="biz-card__sub">セミナー・講座</span><p>各界のプロフェッショナルとともに、知識やノウハウを届けるコンテンツを企画。</p><span class="biz-card__more">詳しく見る →</span></a></div><div class="btn-center"><a class="btn " href="business/index.html">事業内容トップ</a></div></div></div>
+<section class="about">
+  <div class="wrap">
+    <h2 class="heading heading--center"><span class="heading__en">ABOUT US</span><span class="heading__jp">会社情報</span></h2>
+    <p class="lead lead--center">リスクを恐れずに飛び込んでいき、今までに無いものを創りだす。<br class="pc-only">社名に込めた想いのもと、挑戦を続けています。</p>
+    <ul class="tiles"><li><a class="tile" href="company/philosophy/index.html"><img src="assets/img/brainstorm.jpg" alt="" loading="lazy"><span class="tile__txt"><span class="tile__en">PHILOSOPHY</span><span class="tile__jp">企業理念</span></span></a></li><li><a class="tile" href="company/overview/index.html"><img src="assets/img/building.jpg" alt="" loading="lazy"><span class="tile__txt"><span class="tile__en">CORPORATE PROFILE</span><span class="tile__jp">企業概要</span></span></a></li><li><a class="tile" href="company/history/index.html"><img src="assets/img/history.jpg" alt="" loading="lazy"><span class="tile__txt"><span class="tile__en">HISTORY</span><span class="tile__jp">沿革</span></span></a></li></ul>
+  </div>
+</section>
+<section class="recruit-split">
+  <div class="recruit-split__in">
+    <div class="recruit-split__img"><img src="assets/img/rooftop.jpg" alt="屋上テラスで話す社員" loading="lazy"></div>
+    <div class="recruit-split__body"><h2 class="heading"><span class="heading__en">RECRUIT</span><span class="heading__jp">採用情報</span></h2>
+      <h3>ファーストペンギンで働くということ</h3>
+      <p>様々なバックグラウンドを持つ社員が集まり、積極的に新しいことに挑戦しています。オープンでフェアな環境から、私たちならではの「いい仕事」が生まれます。</p>
+      <div><a class="btn " href="recruit/index.html">採用情報</a></div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <h2 class="heading heading--center"><span class="heading__en">LINKS</span><span class="heading__jp">関連サイト</span></h2>
+    <ul class="link-cards">
+      <li><a class="link-card" href="https://www.aqua-gates.com/" target="_blank" rel="noopener"><span><b>AQUAGATES</b><small>決済代行サービス</small></span><span aria-hidden="true">↗</span></a></li>
+      <li><a class="link-card" href="https://swiftpass.aqua-gates.com/" target="_blank" rel="noopener"><span><b>SWIFT PASS</b><small>決済リンクの作成・共有サービス</small></span><span aria-hidden="true">↗</span></a></li>
+      <li><a class="link-card" href="https://www.infotop.jp/" target="_blank" rel="noopener"><span><b>INFOTOP</b><small>デジタルコンテンツのASP</small></span><span aria-hidden="true">↗</span></a></li>
+    </ul>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__top">
+      <div><a class="site-footer__logo" href="index.html"><img src="assets/img/logo_h.png" alt="株式会社ファーストペンギン" width="151" height="28"></a>
+      <p class="site-footer__addr">〒162-0846 東京都新宿区市谷左内町21番地 市谷左内坂ビル1階</p></div>
+      <nav class="fnav" aria-label="フッターナビゲーション"><dl><dt><span class="fnav__label">会社情報</span><button class="fnav__btn" type="button" data-acc aria-expanded="false">会社情報</button></dt><dd><a href="company/index.html">会社情報トップ</a></dd><dd><a href="company/philosophy/index.html">企業理念</a></dd><dd><a href="company/overview/index.html">企業概要</a></dd><dd><a href="company/history/index.html">沿革</a></dd><dd><a href="company/privacy/index.html">プライバシーポリシー</a></dd><dd><a href="company/compliance/index.html">コンプライアンス</a></dd><dd><a href="company/security/index.html">情報セキュリティ</a></dd><dd><a href="company/antisocial/index.html">反社会的勢力に対する基本方針</a></dd></dl><dl><dt><span class="fnav__label">事業内容</span><button class="fnav__btn" type="button" data-acc aria-expanded="false">事業内容</button></dt><dd><a href="business/index.html">事業内容トップ</a></dd><dd><a href="business/infotop/index.html">ASP事業</a></dd><dd><a href="business/payment/index.html">ペイメント事業</a></dd><dd><a href="business/ad/index.html">広告事業</a></dd><dd><a href="business/contentsproduce/index.html">コンテンツプロデュース事業</a></dd></dl><dl><dt><span class="fnav__label">ニュース</span><button class="fnav__btn" type="button" data-acc aria-expanded="false">ニュース</button></dt><dd><a href="news/index.html">ニュース一覧</a></dd><dd><a href="news/corporate/index.html">コーポレートニュース</a></dd><dd><a href="news/service/index.html">サービスニュース</a></dd></dl><dl><dt><span class="fnav__label">採用情報</span><button class="fnav__btn" type="button" data-acc aria-expanded="false">採用情報</button></dt><dd><a href="recruit/index.html">採用情報</a></dd><dd><a href="recruit/career/index.html">キャリア採用</a></dd></dl><dl><dt><span class="fnav__label">お問い合わせ</span><button class="fnav__btn" type="button" data-acc aria-expanded="false">お問い合わせ</button></dt><dd><a href="contact/index.html">お問い合わせ</a></dd></dl></nav>
+    </div>
+    <div class="site-footer__bottom"><span class="pmark">Pマーク</span><small class="copyright">© 2006 First Penguin Inc. All rights reserved.</small></div>
+    <p class="mock-note">※ このサイトはリニューアルのデザイン確認用モックです（公式サイトではありません）。画像はAI生成・フリー素材のイメージです。</p>
+  </div>
+</footer>
+<a class="page-top" href="#top" aria-label="ページの先頭へ">↑</a>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
