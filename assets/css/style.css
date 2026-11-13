@@ -189,7 +189,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .link-card__logo img{max-height:64px;max-width:190px;width:auto;height:auto}
 .link-card small{font-size:12px;color:var(--sub);line-height:1.6}
 .link-card__icon{position:absolute;right:16px;top:12px;color:var(--acc);font-family:var(--en);font-size:14px}
-.service-logo__aqua{height:150px;width:auto;max-width:70%;object-fit:contain}
+.service-logo__aqua{width:200px;height:auto}
 .service-mark{margin-bottom:24px}
 .service-mark img{width:220px}
 .certs{height:72px;width:auto;background:var(--white);border-radius:8px;padding:4px 8px}
@@ -593,7 +593,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   .link-card small{font-size:11px}
   .link-card__icon{top:50%;margin-top:-10px}
   .service-mark img{width:180px}
-  .service-logo__aqua{height:96px}
+  .service-logo__aqua{width:150px}
   .certs{height:52px}
 
   /* lists */
