@@ -353,7 +353,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .article-pager a:last-child{color:var(--acc)}
 
 /* contact */
-.contact-cats{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;list-style:none;margin:40px 0}
+.contact-cats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;list-style:none;margin:40px 0}
 .contact-cats button{display:flex;flex-direction:column;align-items:flex-start;gap:8px;width:100%;height:100%;padding:24px;border-radius:var(--r-md);border:1px solid var(--line);background:var(--white);text-align:left;transition:border-color .2s}
 .contact-cats button:hover{border-color:var(--acc)}
 .contact-cats small{font-family:var(--en);font-size:11px;font-weight:600;letter-spacing:.16em;color:var(--acc)}
@@ -482,7 +482,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   .hero__copy{left:72px}
   .biz__cards{grid-template-columns:repeat(2,1fr)}
   .recruit-split__in{grid-template-columns:1fr 1fr}
-  .contact-cats{grid-template-columns:repeat(3,1fr)}
+  .contact-cats{grid-template-columns:repeat(2,1fr)}
   .value-list>li{grid-template-columns:300px 1fr;gap:32px}
   .split--wide-img{grid-template-columns:1fr 1fr}
   .fnav{gap:28px}

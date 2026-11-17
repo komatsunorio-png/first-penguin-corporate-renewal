@@ -31,7 +31,7 @@ https://komatsunorio-png.github.io/first-penguin-corporate-renewal/
 | | ニュース記事（1ページのみ） | `/news/article.html` |
 | 採用情報 | 採用情報 | `/recruit/` |
 | | キャリア採用 | `/recruit/career/` |
-| | エントリーフォーム | `/recruit/career/entry/` |
+| | エントリー（メール応募） | `/recruit/career/entry/` |
 | | 個人情報の取り扱い（採用） | `/recruit/career/privacy/` |
 | お問い合わせ | お問い合わせ | `/contact/` |
 | | 個人情報の取り扱い（お問い合わせ） | `/contact/privacypolicy/` |
@@ -40,8 +40,19 @@ https://komatsunorio-png.github.io/first-penguin-corporate-renewal/
 
 - ニュース記事は1ページのみ作成し、**すべてのニュースのリンク先を `/news/article.html` に**しています。
 - 年での絞り込み・ページ送りは見た目のみです（リンク先なし）。
-- お問い合わせはWFの方針どおり「メールで問い合わせる」ボタン（mailto）です。宛先 `xxxx@first-penguin.co.jp` は仮です。
-- エントリーフォームは見た目のみで、送信はできません（送信の仕組みはシステム開発部で別途構築）。
+- お問い合わせ・キャリア採用エントリーは、フォームではなくメール（mailto）で受け付ける形式です。ボタンを押すと、件名と記入項目が入った状態でメールソフトが開きます。
+- 宛先は以下のとおりです。
+
+| 窓口 | 宛先 |
+|---|---|
+| ファーストペンギンに関するお問い合わせ | inquire@first-penguin.co.jp |
+| 各種サービスに関するお問い合わせ | inquire@first-penguin.co.jp |
+| 個人情報に関するお問い合わせ | privacy@first-penguin.co.jp |
+| 中途採用・キャリア採用に関するお問い合わせ（エントリー含む） | career@first-penguin.co.jp |
+| 新卒採用サイト、説明会・選考エントリー | recruit@first-penguin.co.jp |
+| インベスターリレーションに関するお問い合わせ | ir@first-penguin.co.jp |
+| 取材に関するお問い合わせ | pr@first-penguin.co.jp |
+
 - 広告事業ページの「広告事業の内容」3項目は仮テキストです。
 - ペイメント事業の特徴（4項目）の説明文は、現行サイトでは画像内の文言のため仮テキストにしています。
 
